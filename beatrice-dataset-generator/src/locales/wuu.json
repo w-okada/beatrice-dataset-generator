@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Beatrice 数据集生成器",
+    "description": "AI 变声模型训练用数据集创建工具"
+  },
+  "character": {
+    "list": "角色列表",
+    "add": "添加角色",
+    "delete": "删除角色",
+    "name": "角色名称",
+    "new": "新角色",
+    "selected": "已选择",
+    "noCharacters": "暂无登记个角色",
+    "confirmDelete": "确定要删除该角色吗？"
+  },
+  "audio": {
+    "list": "音频文件列表",
+    "add": "添加音频",
+    "delete": "删除音频",
+    "name": "文件名",
+    "size": "大小",
+    "duration": "时长",
+    "noFiles": "暂无登记个音频文件",
+    "noCharacterSelected": "请选择一个角色",
+    "play": "播放",
+    "stop": "停止",
+    "confirmDelete": "确定要删除该音频文件吗？",
+    "dropHere": "拖放音频文件到这里",
+    "orClickToSelect": "或者点击选择",
+    "uploading": "添加文件中",
+    "uploadingFiles": "正在添加 {{count}} 个文件",
+    "upload": "添加",
+    "actions": "操作"
+  },
+  "export": {
+    "button": "导出",
+    "title": "导出数据集",
+    "selectCharacters": "选择要导出个角色",
+    "filename": "文件名",
+    "downloading": "下载中...",
+    "complete": "导出完成",
+    "noCharactersSelected": "请选择要导出个角色"
+  },
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "error": "错误",
+    "success": "成功",
+    "rowsPerPage": "每页行数"
+  }
+}

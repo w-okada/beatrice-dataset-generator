@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Generator Dataset Beatrice",
+    "description": "Alat pembuatan dataset untuk pelatihan model pengubah suara AI"
+  },
+  "character": {
+    "list": "Daftar Karakter",
+    "add": "Tambah Karakter",
+    "delete": "Hapus Karakter",
+    "name": "Nama Karakter",
+    "new": "Karakter Baru",
+    "selected": "Dipilih",
+    "noCharacters": "Belum ada karakter yang terdaftar",
+    "confirmDelete": "Apakah Anda yakin ingin menghapus karakter ini?"
+  },
+  "audio": {
+    "list": "Daftar File Audio",
+    "add": "Tambah Audio",
+    "delete": "Hapus Audio",
+    "name": "Nama File",
+    "size": "Ukuran",
+    "duration": "Durasi",
+    "noFiles": "Belum ada file audio yang terdaftar",
+    "noCharacterSelected": "Silakan pilih karakter",
+    "play": "Putar",
+    "stop": "Berhenti",
+    "confirmDelete": "Apakah Anda yakin ingin menghapus file audio ini?",
+    "dropHere": "Taruh berkas audio di sini",
+    "orClickToSelect": "atau klik untuk memilih",
+    "uploading": "Menambahkan Berkas",
+    "uploadingFiles": "Menambahkan {{count}} berkas",
+    "upload": "Tambahkan",
+    "actions": "Tindakan"
+  },
+  "export": {
+    "button": "Ekspor",
+    "title": "Ekspor Dataset",
+    "selectCharacters": "Pilih karakter untuk diekspor",
+    "filename": "Nama File",
+    "downloading": "Mengunduh...",
+    "complete": "Ekspor Selesai",
+    "noCharactersSelected": "Silakan pilih karakter untuk diekspor"
+  },
+  "common": {
+    "cancel": "Batal",
+    "confirm": "Konfirmasi",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "close": "Tutup",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "rowsPerPage": "Baris per halaman"
+  }
+}

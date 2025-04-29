@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Kizalishaji cha Hifadhidata cha Beatrice",
+    "description": "Zana ya kuunda hifadhidata kwa mafunzo ya modeli ya kubadilisha sauti ya AI"
+  },
+  "character": {
+    "list": "Orodha ya Wahusika",
+    "add": "Ongeza Mhusika",
+    "delete": "Futa Mhusika",
+    "name": "Jina la Mhusika",
+    "new": "Mhusika Mpya",
+    "selected": "Imechaguliwa",
+    "noCharacters": "Hakuna wahusika waliosajiliwa bado",
+    "confirmDelete": "Una uhakika unataka kufuta mhusika huyu?"
+  },
+  "audio": {
+    "list": "Orodha ya Faili za Sauti",
+    "add": "Ongeza Sauti",
+    "delete": "Futa Sauti",
+    "name": "Jina la Faili",
+    "size": "Ukubwa",
+    "duration": "Muda",
+    "noFiles": "Hakuna faili za sauti zilizosajiliwa bado",
+    "noCharacterSelected": "Tafadhali chagua mhusika",
+    "play": "Cheza",
+    "stop": "Simamisha",
+    "confirmDelete": "Una uhakika unataka kufuta faili hii ya sauti?",
+    "dropHere": "Dondosha faili za sauti hapa",
+    "orClickToSelect": "au bofya kuchagua",
+    "uploading": "Kuongeza Faili",
+    "uploadingFiles": "Kuongeza faili {{count}}",
+    "upload": "Ongeza",
+    "actions": "Vitendo"
+  },
+  "export": {
+    "button": "Hamisha",
+    "title": "Hamisha Hifadhidata",
+    "selectCharacters": "Chagua wahusika wa kuhamisha",
+    "filename": "Jina la Faili",
+    "downloading": "Inapakua...",
+    "complete": "Uhamishaji Umekamilika",
+    "noCharactersSelected": "Tafadhali chagua wahusika wa kuhamisha"
+  },
+  "common": {
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha",
+    "save": "Hifadhi",
+    "delete": "Futa",
+    "edit": "Hariri",
+    "close": "Funga",
+    "error": "Hitilafu",
+    "success": "Mafanikio",
+    "rowsPerPage": "Safu kwa ukurasa"
+  }
+}

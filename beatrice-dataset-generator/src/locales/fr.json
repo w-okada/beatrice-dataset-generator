@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Générateur de Jeu de Données Beatrice",
+    "description": "Outil de création de jeu de données pour l'entraînement de modèles IA de transformation de voix"
+  },
+  "character": {
+    "list": "Liste des Personnages",
+    "add": "Ajouter un Personnage",
+    "delete": "Supprimer un Personnage",
+    "name": "Nom du Personnage",
+    "new": "Nouveau Personnage",
+    "selected": "Sélectionné",
+    "noCharacters": "Aucun personnage enregistré pour le moment",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce personnage ?"
+  },
+  "audio": {
+    "list": "Liste des Fichiers Audio",
+    "add": "Ajouter un Audio",
+    "delete": "Supprimer un Audio",
+    "name": "Nom du Fichier",
+    "size": "Taille",
+    "duration": "Durée",
+    "noFiles": "Aucun fichier audio enregistré pour le moment",
+    "noCharacterSelected": "Veuillez sélectionner un personnage",
+    "play": "Lire",
+    "stop": "Arrêter",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce fichier audio ?",
+    "dropHere": "Déposez les fichiers audio ici",
+    "orClickToSelect": "ou cliquez pour sélectionner",
+    "uploading": "Ajout de fichiers",
+    "uploadingFiles": "Ajout de {{count}} fichiers",
+    "upload": "Ajouter",
+    "actions": "Actions"
+  },
+  "export": {
+    "button": "Exporter",
+    "title": "Exporter le Jeu de Données",
+    "selectCharacters": "Sélectionnez les personnages à exporter",
+    "filename": "Nom du Fichier",
+    "downloading": "Téléchargement en cours...",
+    "complete": "Exportation Terminée",
+    "noCharactersSelected": "Veuillez sélectionner les personnages à exporter"
+  },
+  "common": {
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "error": "Erreur",
+    "success": "Succès",
+    "rowsPerPage": "Lignes par page"
+  }
+}

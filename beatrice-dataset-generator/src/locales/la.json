@@ -1,0 +1,55 @@
+{
+  "app": {
+    "title": "Generator Datorum Beatrice",
+    "description": "Instrumentum creandi data pro instructione modelli vocis mutandae IA"
+  },
+  "character": {
+    "list": "Index Personarum",
+    "add": "Adde Personam",
+    "delete": "Dele Personam",
+    "name": "Nomen Personae",
+    "new": "Nova Persona",
+    "selected": "Selecta",
+    "noCharacters": "Nullae personae adhuc registratae sunt",
+    "confirmDelete": "Visne certe hanc personam delere?"
+  },
+  "audio": {
+    "list": "Index Documentorum Sonituum",
+    "add": "Adde Sonitum",
+    "delete": "Dele Sonitum",
+    "name": "Nomen Documenti",
+    "size": "Magnitudo",
+    "duration": "Duratio",
+    "noFiles": "Nulla documenta sonitus adhuc registrata sunt",
+    "noCharacterSelected": "Selige personam, quaeso",
+    "play": "Lege",
+    "stop": "Siste",
+    "confirmDelete": "Visne certe hoc documentum sonitus delere?",
+    "dropHere": "Derelinque fasciculos sonorum hic",
+    "orClickToSelect": "vel pulsa ad seligendum",
+    "uploading": "Additio Fasciculorum",
+    "uploadingFiles": "Additio {{count}} fasciculorum",
+    "upload": "Addere",
+    "actions": "Actiones"
+  },
+  "export": {
+    "button": "Exporta",
+    "title": "Exporta Data",
+    "selectCharacters": "Selige personas ad exportandum",
+    "filename": "Nomen Documenti",
+    "downloading": "Recipitur...",
+    "complete": "Exportatio Completa",
+    "noCharactersSelected": "Selige personas ad exportandum, quaeso"
+  },
+  "common": {
+    "cancel": "Rescinde",
+    "confirm": "Confirma",
+    "save": "Serva",
+    "delete": "Dele",
+    "edit": "Muta",
+    "close": "Claude",
+    "error": "Error",
+    "success": "Successus",
+    "rowsPerPage": "Versus per paginam"
+  }
+}
