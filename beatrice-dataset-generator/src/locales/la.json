@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Generator Datorum Beatrice",
-    "description": "Instrumentum creandi data pro instructione modelli vocis mutandae IA"
-  },
-  "character": {
-    "list": "Index Personarum",
-    "add": "Adde Personam",
-    "delete": "Dele Personam",
-    "name": "Nomen Personae",
-    "new": "Nova Persona",
-    "selected": "Selecta",
-    "noCharacters": "Nullae personae adhuc registratae sunt",
-    "confirmDelete": "Visne certe hanc personam delere?"
-  },
-  "audio": {
-    "list": "Index Documentorum Sonituum",
-    "add": "Adde Sonitum",
-    "delete": "Dele Sonitum",
-    "name": "Nomen Documenti",
-    "size": "Magnitudo",
-    "duration": "Duratio",
-    "noFiles": "Nulla documenta sonitus adhuc registrata sunt",
-    "noCharacterSelected": "Selige personam, quaeso",
-    "play": "Lege",
-    "stop": "Siste",
-    "confirmDelete": "Visne certe hoc documentum sonitus delere?",
-    "dropHere": "Derelinque fasciculos sonorum hic",
-    "orClickToSelect": "vel pulsa ad seligendum",
-    "uploading": "Additio Fasciculorum",
-    "uploadingFiles": "Additio {{count}} fasciculorum",
-    "upload": "Addere",
-    "actions": "Actiones"
-  },
-  "export": {
-    "button": "Exporta",
-    "title": "Exporta Data",
-    "selectCharacters": "Selige personas ad exportandum",
-    "filename": "Nomen Documenti",
-    "downloading": "Recipitur...",
-    "complete": "Exportatio Completa",
-    "noCharactersSelected": "Selige personas ad exportandum, quaeso"
-  },
-  "common": {
-    "cancel": "Rescinde",
-    "confirm": "Confirma",
-    "save": "Serva",
-    "delete": "Dele",
-    "edit": "Muta",
-    "close": "Claude",
-    "error": "Error",
-    "success": "Successus",
-    "rowsPerPage": "Versus per paginam"
-  }
+    "app": {
+        "title": "Generator Datorum Beatrice",
+        "description": "Instrumentum creandum datorum pro exercitatione modelli vocis mutationis IA"
+    },
+    "character": {
+        "list": "Index Personarum",
+        "add": "Adde Personam",
+        "delete": "Dele Personam",
+        "name": "Nomen Personae",
+        "new": "Nova Persona",
+        "selected": "Selectus",
+        "noCharacters": "Nullae personae adhuc registratae sunt",
+        "confirmDelete": "Certusne es te hanc personam delere velle?"
+    },
+    "audio": {
+        "list": "Index Documentorum Sonicorum",
+        "add": "Adde Sonicum",
+        "delete": "Dele Sonicum",
+        "name": "Nomen Documenti",
+        "size": "Magnitudo",
+        "duration": "Diuturnitas",
+        "noFiles": "Nulla documenta sonica adhuc registrata sunt",
+        "noCharacterSelected": "Elige personam, quaeso",
+        "play": "Reproduc",
+        "stop": "Siste",
+        "confirmDelete": "Certusne es te hoc documentum sonicum delere velle?",
+        "dropHere": "Demitte documenta sonica hic",
+        "orClickToSelect": "vel preme ad eligendum",
+        "uploading": "Additio Documentorum",
+        "uploadingFiles": "Additio {{count}} documentorum",
+        "upload": "Adde",
+        "actions": "Actiones"
+    },
+    "export": {
+        "button": "Exporta",
+        "title": "Exporta Data",
+        "allCharactersInfo": "Omnes personae exportabuntur",
+        "filename": "Nomen Documenti",
+        "downloading": "Deponens...",
+        "complete": "Exportatio Completa",
+        "noCharactersSelected": "Nullae personae ad exportandum"
+    },
+    "common": {
+        "cancel": "Abroga",
+        "confirm": "Confirma",
+        "save": "Serva",
+        "delete": "Dele",
+        "edit": "Redige",
+        "close": "Claude",
+        "error": "Error",
+        "success": "Successus",
+        "rowsPerPage": "Lineae per paginam"
+    }
 }

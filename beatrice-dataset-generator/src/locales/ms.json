@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Penjana Dataset Beatrice",
-    "description": "Alat penciptaan dataset untuk latihan model penukar suara AI"
-  },
-  "character": {
-    "list": "Senarai Watak",
-    "add": "Tambah Watak",
-    "delete": "Padam Watak",
-    "name": "Nama Watak",
-    "new": "Watak Baru",
-    "selected": "Dipilih",
-    "noCharacters": "Tiada watak didaftarkan lagi",
-    "confirmDelete": "Adakah anda pasti ingin memadam watak ini?"
-  },
-  "audio": {
-    "list": "Senarai Fail Audio",
-    "add": "Tambah Audio",
-    "delete": "Padam Audio",
-    "name": "Nama Fail",
-    "size": "Saiz",
-    "duration": "Tempoh",
-    "noFiles": "Tiada fail audio didaftarkan lagi",
-    "noCharacterSelected": "Sila pilih watak",
-    "play": "Main",
-    "stop": "Henti",
-    "confirmDelete": "Adakah anda pasti ingin memadam fail audio ini?",
-    "dropHere": "Letakkan fail audio di sini",
-    "orClickToSelect": "atau klik untuk memilih",
-    "uploading": "Menambah Fail",
-    "uploadingFiles": "Menambah {{count}} fail",
-    "upload": "Tambah",
-    "actions": "Tindakan"
-  },
-  "export": {
-    "button": "Eksport",
-    "title": "Eksport Dataset",
-    "selectCharacters": "Pilih watak untuk dieksport",
-    "filename": "Nama Fail",
-    "downloading": "Memuat turun...",
-    "complete": "Eksport Selesai",
-    "noCharactersSelected": "Sila pilih watak untuk dieksport"
-  },
-  "common": {
-    "cancel": "Batal",
-    "confirm": "Sahkan",
-    "save": "Simpan",
-    "delete": "Padam",
-    "edit": "Sunting",
-    "close": "Tutup",
-    "error": "Ralat",
-    "success": "Berjaya",
-    "rowsPerPage": "Baris setiap halaman"
-  }
+    "app": {
+        "title": "Penjana Dataset Beatrice",
+        "description": "Alat penciptaan dataset untuk latihan model penukar suara AI"
+    },
+    "character": {
+        "list": "Senarai Watak",
+        "add": "Tambah Watak",
+        "delete": "Padam Watak",
+        "name": "Nama Watak",
+        "new": "Watak Baharu",
+        "selected": "Dipilih",
+        "noCharacters": "Tiada watak didaftarkan lagi",
+        "confirmDelete": "Adakah anda pasti mahu memadamkan watak ini?"
+    },
+    "audio": {
+        "list": "Senarai Fail Audio",
+        "add": "Tambah Audio",
+        "delete": "Padam Audio",
+        "name": "Nama Fail",
+        "size": "Saiz",
+        "duration": "Tempoh",
+        "noFiles": "Tiada fail audio didaftarkan lagi",
+        "noCharacterSelected": "Sila pilih watak",
+        "play": "Main",
+        "stop": "Henti",
+        "confirmDelete": "Adakah anda pasti mahu memadamkan fail audio ini?",
+        "dropHere": "Letakkan fail audio di sini",
+        "orClickToSelect": "atau klik untuk pilih",
+        "uploading": "Menambah Fail",
+        "uploadingFiles": "Menambah {{count}} fail",
+        "upload": "Tambah",
+        "actions": "Tindakan"
+    },
+    "export": {
+        "button": "Eksport",
+        "title": "Eksport Dataset",
+        "allCharactersInfo": "Semua watak akan dieksport",
+        "filename": "Nama Fail",
+        "downloading": "Memuat turun...",
+        "complete": "Eksport Selesai",
+        "noCharactersSelected": "Tiada watak untuk dieksport"
+    },
+    "common": {
+        "cancel": "Batal",
+        "confirm": "Sahkan",
+        "save": "Simpan",
+        "delete": "Padam",
+        "edit": "Edit",
+        "close": "Tutup",
+        "error": "Ralat",
+        "success": "Berjaya",
+        "rowsPerPage": "Baris setiap halaman"
+    }
 }

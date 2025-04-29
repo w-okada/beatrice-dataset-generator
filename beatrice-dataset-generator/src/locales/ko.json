@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Beatrice 데이터셋 제너레이터",
-    "description": "AI 음성 변경기 모델 학습을 위한 데이터셋 작성 도구"
-  },
-  "character": {
-    "list": "캐릭터 목록",
-    "add": "캐릭터 추가",
-    "delete": "캐릭터 삭제",
-    "name": "캐릭터 이름",
-    "new": "새 캐릭터",
-    "selected": "선택됨",
-    "noCharacters": "등록된 캐릭터가 없습니다",
-    "confirmDelete": "이 캐릭터를 삭제하시겠습니까?"
-  },
-  "audio": {
-    "list": "오디오 파일 목록",
-    "add": "오디오 추가",
-    "delete": "오디오 삭제",
-    "name": "파일 이름",
-    "size": "크기",
-    "duration": "길이",
-    "noFiles": "등록된 오디오 파일이 없습니다",
-    "noCharacterSelected": "캐릭터를 선택해주세요",
-    "play": "재생",
-    "stop": "정지",
-    "confirmDelete": "이 오디오 파일을 삭제하시겠습니까?",
-    "dropHere": "여기에 오디오 파일을 드롭하세요",
-    "orClickToSelect": "또는 클릭하여 선택하세요",
-    "uploading": "파일 추가 중",
-    "uploadingFiles": "{{count}}개의 파일을 추가하는 중",
-    "upload": "추가",
-    "actions": "작업"
-  },
-  "export": {
-    "button": "내보내기",
-    "title": "데이터셋 내보내기",
-    "selectCharacters": "내보낼 캐릭터 선택",
-    "filename": "파일 이름",
-    "downloading": "다운로드 중...",
-    "complete": "내보내기 완료",
-    "noCharactersSelected": "내보낼 캐릭터를 선택해주세요"
-  },
-  "common": {
-    "cancel": "취소",
-    "confirm": "확인",
-    "save": "저장",
-    "delete": "삭제",
-    "edit": "편집",
-    "close": "닫기",
-    "error": "오류",
-    "success": "성공",
-    "rowsPerPage": "페이지당 행 수"
-  }
+    "app": {
+        "title": "Beatrice 데이터셋 제너레이터",
+        "description": "AI 음성 변경기 모델 학습을 위한 데이터셋 작성 도구"
+    },
+    "character": {
+        "list": "캐릭터 목록",
+        "add": "캐릭터 추가",
+        "delete": "캐릭터 삭제",
+        "name": "캐릭터 이름",
+        "new": "새 캐릭터",
+        "selected": "선택됨",
+        "noCharacters": "등록된 캐릭터가 없습니다",
+        "confirmDelete": "이 캐릭터를 삭제하시겠습니까?"
+    },
+    "audio": {
+        "list": "오디오 파일 목록",
+        "add": "오디오 추가",
+        "delete": "오디오 삭제",
+        "name": "파일 이름",
+        "size": "크기",
+        "duration": "길이",
+        "noFiles": "등록된 오디오 파일이 없습니다",
+        "noCharacterSelected": "캐릭터를 선택해주세요",
+        "play": "재생",
+        "stop": "정지",
+        "confirmDelete": "이 오디오 파일을 삭제하시겠습니까?",
+        "dropHere": "여기에 오디오 파일을 드롭하세요",
+        "orClickToSelect": "또는 클릭하여 선택하세요",
+        "uploading": "파일 추가 중",
+        "uploadingFiles": "{{count}}개의 파일을 추가하는 중",
+        "upload": "추가",
+        "actions": "작업"
+    },
+    "export": {
+        "button": "내보내기",
+        "title": "데이터셋 내보내기",
+        "allCharactersInfo": "모든 캐릭터가 내보내기됩니다",
+        "filename": "파일 이름",
+        "downloading": "다운로드 중...",
+        "complete": "내보내기 완료",
+        "noCharactersSelected": "내보낼 캐릭터가 없습니다"
+    },
+    "common": {
+        "cancel": "취소",
+        "confirm": "확인",
+        "save": "저장",
+        "delete": "삭제",
+        "edit": "편집",
+        "close": "닫기",
+        "error": "오류",
+        "success": "성공",
+        "rowsPerPage": "페이지당 행 수"
+    }
 }

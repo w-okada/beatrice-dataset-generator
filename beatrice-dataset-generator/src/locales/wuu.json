@@ -35,11 +35,11 @@
   "export": {
     "button": "导出",
     "title": "导出数据集",
-    "selectCharacters": "选择要导出个角色",
     "filename": "文件名",
     "downloading": "下载中...",
     "complete": "导出完成",
-    "noCharactersSelected": "请选择要导出个角色"
+    "noCharactersSelected": "请选择要导出个角色",
+    "allCharactersInfo": "全て|all|所有|todo|全部|모든|すべて|alle|tout|todas|semua|tümü|todos|все|كل|όλ|tutt|সমস্ত|সব|सभी|তমাম要导出个角色"
   },
   "common": {
     "cancel": "取消",

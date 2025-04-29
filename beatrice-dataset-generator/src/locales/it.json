@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Generatore Dataset Beatrice",
-    "description": "Strumento di creazione dataset per l'addestramento di modelli IA di cambiamento vocale"
-  },
-  "character": {
-    "list": "Elenco Personaggi",
-    "add": "Aggiungi Personaggio",
-    "delete": "Elimina Personaggio",
-    "name": "Nome Personaggio",
-    "new": "Nuovo Personaggio",
-    "selected": "Selezionato",
-    "noCharacters": "Nessun personaggio registrato ancora",
-    "confirmDelete": "Sei sicuro di voler eliminare questo personaggio?"
-  },
-  "audio": {
-    "list": "Elenco File Audio",
-    "add": "Aggiungi Audio",
-    "delete": "Elimina Audio",
-    "name": "Nome File",
-    "size": "Dimensione",
-    "duration": "Durata",
-    "noFiles": "Nessun file audio registrato ancora",
-    "noCharacterSelected": "Seleziona un personaggio",
-    "play": "Riproduci",
-    "stop": "Ferma",
-    "confirmDelete": "Sei sicuro di voler eliminare questo file audio?",
-    "dropHere": "Trascina qui i file audio",
-    "orClickToSelect": "o clicca per selezionare",
-    "uploading": "Aggiunta di File",
-    "uploadingFiles": "Aggiunta di {{count}} file",
-    "upload": "Aggiungi",
-    "actions": "Azioni"
-  },
-  "export": {
-    "button": "Esporta",
-    "title": "Esporta Dataset",
-    "selectCharacters": "Seleziona personaggi da esportare",
-    "filename": "Nome File",
-    "downloading": "Download in corso...",
-    "complete": "Esportazione Completata",
-    "noCharactersSelected": "Seleziona i personaggi da esportare"
-  },
-  "common": {
-    "cancel": "Annulla",
-    "confirm": "Conferma",
-    "save": "Salva",
-    "delete": "Elimina",
-    "edit": "Modifica",
-    "close": "Chiudi",
-    "error": "Errore",
-    "success": "Successo",
-    "rowsPerPage": "Righe per pagina"
-  }
+    "app": {
+        "title": "Generatore di Dataset Beatrice",
+        "description": "Strumento di creazione di dataset per l'addestramento di modelli IA per il cambio voce"
+    },
+    "character": {
+        "list": "Elenco Personaggi",
+        "add": "Aggiungi Personaggio",
+        "delete": "Elimina Personaggio",
+        "name": "Nome Personaggio",
+        "new": "Nuovo Personaggio",
+        "selected": "Selezionato",
+        "noCharacters": "Nessun personaggio registrato ancora",
+        "confirmDelete": "Sei sicuro di voler eliminare questo personaggio?"
+    },
+    "audio": {
+        "list": "Elenco File Audio",
+        "add": "Aggiungi Audio",
+        "delete": "Elimina Audio",
+        "name": "Nome File",
+        "size": "Dimensione",
+        "duration": "Durata",
+        "noFiles": "Nessun file audio registrato ancora",
+        "noCharacterSelected": "Seleziona un personaggio",
+        "play": "Riproduci",
+        "stop": "Ferma",
+        "confirmDelete": "Sei sicuro di voler eliminare questo file audio?",
+        "dropHere": "Trascina qui i file audio",
+        "orClickToSelect": "o clicca per selezionare",
+        "uploading": "Aggiunta di file",
+        "uploadingFiles": "Aggiunta di {{count}} file",
+        "upload": "Aggiungi",
+        "actions": "Azioni"
+    },
+    "export": {
+        "button": "Esporta",
+        "title": "Esporta Dataset",
+        "allCharactersInfo": "Tutti i personaggi saranno esportati",
+        "filename": "Nome File",
+        "downloading": "Download in corso...",
+        "complete": "Esportazione Completata",
+        "noCharactersSelected": "Non ci sono personaggi da esportare"
+    },
+    "common": {
+        "cancel": "Annulla",
+        "confirm": "Conferma",
+        "save": "Salva",
+        "delete": "Elimina",
+        "edit": "Modifica",
+        "close": "Chiudi",
+        "error": "Errore",
+        "success": "Successo",
+        "rowsPerPage": "Righe per pagina"
+    }
 }

@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Gerador de Conjunto de Dados Beatrice",
-    "description": "Ferramenta de criação de conjuntos de dados para treinamento de modelos de modificador de voz IA"
-  },
-  "character": {
-    "list": "Lista de Personagens",
-    "add": "Adicionar Personagem",
-    "delete": "Excluir Personagem",
-    "name": "Nome do Personagem",
-    "new": "Novo Personagem",
-    "selected": "Selecionado",
-    "noCharacters": "Nenhum personagem registrado ainda",
-    "confirmDelete": "Tem certeza que deseja excluir este personagem?"
-  },
-  "audio": {
-    "list": "Lista de Arquivos de Áudio",
-    "add": "Adicionar Áudio",
-    "delete": "Excluir Áudio",
-    "name": "Nome do Arquivo",
-    "size": "Tamanho",
-    "duration": "Duração",
-    "noFiles": "Nenhum arquivo de áudio registrado ainda",
-    "noCharacterSelected": "Por favor, selecione um personagem",
-    "play": "Reproduzir",
-    "stop": "Parar",
-    "confirmDelete": "Tem certeza que deseja excluir este arquivo de áudio?",
-    "dropHere": "Solte arquivos de áudio aqui",
-    "orClickToSelect": "ou clique para selecionar",
-    "uploading": "Adicionando Arquivos",
-    "uploadingFiles": "Adicionando {{count}} arquivos",
-    "upload": "Adicionar",
-    "actions": "Ações"
-  },
-  "export": {
-    "button": "Exportar",
-    "title": "Exportar Conjunto de Dados",
-    "selectCharacters": "Selecione personagens para exportar",
-    "filename": "Nome do Arquivo",
-    "downloading": "Baixando...",
-    "complete": "Exportação Concluída",
-    "noCharactersSelected": "Por favor, selecione personagens para exportar"
-  },
-  "common": {
-    "cancel": "Cancelar",
-    "confirm": "Confirmar",
-    "save": "Salvar",
-    "delete": "Excluir",
-    "edit": "Editar",
-    "close": "Fechar",
-    "error": "Erro",
-    "success": "Sucesso",
-    "rowsPerPage": "Linhas por página"
-  }
+    "app": {
+        "title": "Gerador de Conjunto de Dados Beatrice",
+        "description": "Ferramenta de criação de conjunto de dados para treinamento de modelos de IA para mudança de voz"
+    },
+    "character": {
+        "list": "Lista de Personagens",
+        "add": "Adicionar Personagem",
+        "delete": "Excluir Personagem",
+        "name": "Nome da Personagem",
+        "new": "Nova Personagem",
+        "selected": "Selecionado",
+        "noCharacters": "Nenhuma personagem registrada ainda",
+        "confirmDelete": "Tem certeza que deseja excluir esta personagem?"
+    },
+    "audio": {
+        "list": "Lista de Arquivos de Áudio",
+        "add": "Adicionar Áudio",
+        "delete": "Excluir Áudio",
+        "name": "Nome do Arquivo",
+        "size": "Tamanho",
+        "duration": "Duração",
+        "noFiles": "Nenhum arquivo de áudio registrado ainda",
+        "noCharacterSelected": "Por favor, selecione uma personagem",
+        "play": "Reproduzir",
+        "stop": "Parar",
+        "confirmDelete": "Tem certeza que deseja excluir este arquivo de áudio?",
+        "dropHere": "Solte arquivos de áudio aqui",
+        "orClickToSelect": "ou clique para selecionar",
+        "uploading": "Adicionando Arquivos",
+        "uploadingFiles": "Adicionando {{count}} arquivos",
+        "upload": "Adicionar",
+        "actions": "Ações"
+    },
+    "export": {
+        "button": "Exportar",
+        "title": "Exportar Conjunto de Dados",
+        "allCharactersInfo": "Todas as personagens serão exportadas",
+        "filename": "Nome do Arquivo",
+        "downloading": "Baixando...",
+        "complete": "Exportação Concluída",
+        "noCharactersSelected": "Não há personagens para exportar"
+    },
+    "common": {
+        "cancel": "Cancelar",
+        "confirm": "Confirmar",
+        "save": "Salvar",
+        "delete": "Excluir",
+        "edit": "Editar",
+        "close": "Fechar",
+        "error": "Erro",
+        "success": "Sucesso",
+        "rowsPerPage": "Linhas por página"
+    }
 }

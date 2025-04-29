@@ -35,11 +35,11 @@
   "export": {
     "button": "صدور",
     "title": "صدور مجموعه داده",
-    "selectCharacters": "شخصیت‌ها را برای صدور انتخاب کنید",
     "filename": "نام فایل",
     "downloading": "در حال دانلود...",
     "complete": "صدور تکمیل شد",
-    "noCharactersSelected": "لطفاً شخصیت‌ها را برای صدور انتخاب کنید"
+    "noCharactersSelected": "لطفاً شخصیت‌ها را برای صدور انتخاب کنید",
+    "allCharactersInfo": "شخصیت‌ها را برای صدور انتخاب کنید"
   },
   "common": {
     "cancel": "لغو",

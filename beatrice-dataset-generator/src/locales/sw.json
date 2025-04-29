@@ -35,11 +35,11 @@
   "export": {
     "button": "Hamisha",
     "title": "Hamisha Hifadhidata",
-    "selectCharacters": "Chagua wahusika wa kuhamisha",
     "filename": "Jina la Faili",
     "downloading": "Inapakua...",
     "complete": "Uhamishaji Umekamilika",
-    "noCharactersSelected": "Tafadhali chagua wahusika wa kuhamisha"
+    "noCharactersSelected": "Tafadhali chagua wahusika wa kuhamisha",
+    "allCharactersInfo": "Chagua wahusika wa kuhamisha"
   },
   "common": {
     "cancel": "Ghairi",

@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Beatrice Veri Seti Oluşturucu",
-    "description": "AI ses değiştirici model eğitimi için veri seti oluşturma aracı"
-  },
-  "character": {
-    "list": "Karakter Listesi",
-    "add": "Karakter Ekle",
-    "delete": "Karakteri Sil",
-    "name": "Karakter Adı",
-    "new": "Yeni Karakter",
-    "selected": "Seçildi",
-    "noCharacters": "Henüz kayıtlı karakter yok",
-    "confirmDelete": "Bu karakteri silmek istediğinizden emin misiniz?"
-  },
-  "audio": {
-    "list": "Ses Dosyası Listesi",
-    "add": "Ses Ekle",
-    "delete": "Sesi Sil",
-    "name": "Dosya Adı",
-    "size": "Boyut",
-    "duration": "Süre",
-    "noFiles": "Henüz kayıtlı ses dosyası yok",
-    "noCharacterSelected": "Lütfen bir karakter seçin",
-    "play": "Oynat",
-    "stop": "Durdur",
-    "confirmDelete": "Bu ses dosyasını silmek istediğinizden emin misiniz?",
-    "dropHere": "Ses dosyalarını buraya bırakın",
-    "orClickToSelect": "veya seçmek için tıklayın",
-    "uploading": "Dosya Ekleniyor",
-    "uploadingFiles": "{{count}} dosya ekleniyor",
-    "upload": "Ekle",
-    "actions": "İşlemler"
-  },
-  "export": {
-    "button": "Dışa Aktar",
-    "title": "Veri Setini Dışa Aktar",
-    "selectCharacters": "Dışa aktarılacak karakterleri seçin",
-    "filename": "Dosya Adı",
-    "downloading": "İndiriliyor...",
-    "complete": "Dışa Aktarma Tamamlandı",
-    "noCharactersSelected": "Lütfen dışa aktarılacak karakterleri seçin"
-  },
-  "common": {
-    "cancel": "İptal",
-    "confirm": "Onayla",
-    "save": "Kaydet",
-    "delete": "Sil",
-    "edit": "Düzenle",
-    "close": "Kapat",
-    "error": "Hata",
-    "success": "Başarılı",
-    "rowsPerPage": "Sayfa başına satır"
-  }
+    "app": {
+        "title": "Beatrice Veri Seti Oluşturucu",
+        "description": "AI ses değiştirici model eğitimi için veri seti oluşturma aracı"
+    },
+    "character": {
+        "list": "Karakter Listesi",
+        "add": "Karakter Ekle",
+        "delete": "Karakteri Sil",
+        "name": "Karakter Adı",
+        "new": "Yeni Karakter",
+        "selected": "Seçildi",
+        "noCharacters": "Henüz kayıtlı karakter yok",
+        "confirmDelete": "Bu karakteri silmek istediğinizden emin misiniz?"
+    },
+    "audio": {
+        "list": "Ses Dosyası Listesi",
+        "add": "Ses Ekle",
+        "delete": "Sesi Sil",
+        "name": "Dosya Adı",
+        "size": "Boyut",
+        "duration": "Süre",
+        "noFiles": "Henüz kayıtlı ses dosyası yok",
+        "noCharacterSelected": "Lütfen bir karakter seçin",
+        "play": "Oynat",
+        "stop": "Durdur",
+        "confirmDelete": "Bu ses dosyasını silmek istediğinizden emin misiniz?",
+        "dropHere": "Ses dosyalarını buraya bırakın",
+        "orClickToSelect": "veya seçmek için tıklayın",
+        "uploading": "Dosya Ekleniyor",
+        "uploadingFiles": "{{count}} dosya ekleniyor",
+        "upload": "Ekle",
+        "actions": "İşlemler"
+    },
+    "export": {
+        "button": "Dışa Aktar",
+        "title": "Veri Setini Dışa Aktar",
+        "allCharactersInfo": "Tüm karakterler dışa aktarılacak",
+        "filename": "Dosya Adı",
+        "downloading": "İndiriliyor...",
+        "complete": "Dışa Aktarma Tamamlandı",
+        "noCharactersSelected": "Dışa aktarılacak karakter yok"
+    },
+    "common": {
+        "cancel": "İptal",
+        "confirm": "Onayla",
+        "save": "Kaydet",
+        "delete": "Sil",
+        "edit": "Düzenle",
+        "close": "Kapat",
+        "error": "Hata",
+        "success": "Başarılı",
+        "rowsPerPage": "Sayfa başına satır"
+    }
 }

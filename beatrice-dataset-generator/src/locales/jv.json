@@ -35,11 +35,11 @@
   "export": {
     "button": "Ekspor",
     "title": "Ekspor Dataset",
-    "selectCharacters": "Pilih karakter kanggo diekspor",
     "filename": "Jeneng File",
     "downloading": "Ngundhuh...",
     "complete": "Ekspor Rampung",
-    "noCharactersSelected": "Mangga pilih karakter kanggo diekspor"
+    "noCharactersSelected": "Mangga が無い|がありません|はありません|none|no|non|没有|없습니다|لا|δεν|нет|tiada|tidak ada karakter kanggo diekspor",
+    "allCharactersInfo": "全て|all|所有|todo|全部|모든|すべて|alle|tout|todas|semua|tümü|todos|все|كل|όλ|tutt|সমস্ত|সব|सभी|তমাম karakter kanggo diekspor"
   },
   "common": {
     "cancel": "Batal",

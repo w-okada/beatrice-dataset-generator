@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Beatrice Dataset Generator",
-    "description": "Datensatz-Erstellungswerkzeug für das Training von KI-Stimmenwechslermodellen"
-  },
-  "character": {
-    "list": "Charakterliste",
-    "add": "Charakter hinzufügen",
-    "delete": "Charakter löschen",
-    "name": "Charaktername",
-    "new": "Neuer Charakter",
-    "selected": "Ausgewählt",
-    "noCharacters": "Noch keine Charaktere registriert",
-    "confirmDelete": "Sind Sie sicher, dass Sie diesen Charakter löschen möchten?"
-  },
-  "audio": {
-    "list": "Audiodateiliste",
-    "add": "Audio hinzufügen",
-    "delete": "Audio löschen",
-    "name": "Dateiname",
-    "size": "Größe",
-    "duration": "Dauer",
-    "noFiles": "Noch keine Audiodateien registriert",
-    "noCharacterSelected": "Bitte wählen Sie einen Charakter aus",
-    "play": "Abspielen",
-    "stop": "Stopp",
-    "confirmDelete": "Sind Sie sicher, dass Sie diese Audiodatei löschen möchten?",
-    "dropHere": "Audiodateien hier ablegen",
-    "orClickToSelect": "oder klicken, um auszuwählen",
-    "uploading": "Dateien hinzufügen",
-    "uploadingFiles": "{{count}} Dateien werden hinzugefügt",
-    "upload": "Hinzufügen",
-    "actions": "Aktionen"
-  },
-  "export": {
-    "button": "Exportieren",
-    "title": "Datensatz exportieren",
-    "selectCharacters": "Charaktere zum Exportieren auswählen",
-    "filename": "Dateiname",
-    "downloading": "Wird heruntergeladen...",
-    "complete": "Export abgeschlossen",
-    "noCharactersSelected": "Bitte wählen Sie Charaktere zum Exportieren aus"
-  },
-  "common": {
-    "cancel": "Abbrechen",
-    "confirm": "Bestätigen",
-    "save": "Speichern",
-    "delete": "Löschen",
-    "edit": "Bearbeiten",
-    "close": "Schließen",
-    "error": "Fehler",
-    "success": "Erfolg",
-    "rowsPerPage": "Zeilen pro Seite"
-  }
+    "app": {
+        "title": "Beatrice Dataset Generator",
+        "description": "Datensatz-Erstellungswerkzeug für das Training von KI-Stimmenwechslermodellen"
+    },
+    "character": {
+        "list": "Charakterliste",
+        "add": "Charakter hinzufügen",
+        "delete": "Charakter löschen",
+        "name": "Charaktername",
+        "new": "Neuer Charakter",
+        "selected": "Ausgewählt",
+        "noCharacters": "Noch keine Charaktere registriert",
+        "confirmDelete": "Sind Sie sicher, dass Sie diesen Charakter löschen möchten?"
+    },
+    "audio": {
+        "list": "Audiodateiliste",
+        "add": "Audio hinzufügen",
+        "delete": "Audio löschen",
+        "name": "Dateiname",
+        "size": "Größe",
+        "duration": "Dauer",
+        "noFiles": "Noch keine Audiodateien registriert",
+        "noCharacterSelected": "Bitte wählen Sie einen Charakter aus",
+        "play": "Abspielen",
+        "stop": "Stopp",
+        "confirmDelete": "Sind Sie sicher, dass Sie diese Audiodatei löschen möchten?",
+        "dropHere": "Audiodateien hier ablegen",
+        "orClickToSelect": "oder klicken, um auszuwählen",
+        "uploading": "Dateien hinzufügen",
+        "uploadingFiles": "{{count}} Dateien werden hinzugefügt",
+        "upload": "Hinzufügen",
+        "actions": "Aktionen"
+    },
+    "export": {
+        "button": "Exportieren",
+        "title": "Datensatz exportieren",
+        "allCharactersInfo": "Alle Charaktere werden exportiert",
+        "filename": "Dateiname",
+        "downloading": "Wird heruntergeladen...",
+        "complete": "Export abgeschlossen",
+        "noCharactersSelected": "Keine Charaktere zum Exportieren vorhanden"
+    },
+    "common": {
+        "cancel": "Abbrechen",
+        "confirm": "Bestätigen",
+        "save": "Speichern",
+        "delete": "Löschen",
+        "edit": "Bearbeiten",
+        "close": "Schließen",
+        "error": "Fehler",
+        "success": "Erfolg",
+        "rowsPerPage": "Zeilen pro Seite"
+    }
 }

@@ -35,11 +35,11 @@
   "export": {
     "button": "निर्यात करा",
     "title": "डेटासेट निर्यात करा",
-    "selectCharacters": "निर्यात करण्यासाठी पात्र निवडा",
     "filename": "फाईलचे नाव",
     "downloading": "डाउनलोड होत आहे...",
     "complete": "निर्यात पूर्ण झाले",
-    "noCharactersSelected": "कृपया निर्यात करण्यासाठी पात्र निवडा"
+    "noCharactersSelected": "कृपया निर्यात करण्यासाठी पात्र निवडा",
+    "allCharactersInfo": "निर्यात करण्यासाठी पात्र निवडा"
   },
   "common": {
     "cancel": "रद्द करा",

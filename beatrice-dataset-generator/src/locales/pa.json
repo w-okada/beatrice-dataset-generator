@@ -35,11 +35,11 @@
   "export": {
     "button": "ਐਕਸਪੋਰਟ",
     "title": "ਡਾਟਾਸੇਟ ਐਕਸਪੋਰਟ ਕਰੋ",
-    "selectCharacters": "ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਪਾਤਰਾਂ ਦੀ ਚੋਣ ਕਰੋ",
     "filename": "ਫਾਇਲ ਦਾ ਨਾਮ",
     "downloading": "ਡਾਊਨਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
     "complete": "ਐਕਸਪੋਰਟ ਪੂਰਾ ਹੋਇਆ",
-    "noCharactersSelected": "ਕਿਰਪਾ ਕਰਕੇ ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਪਾਤਰਾਂ ਦੀ ਚੋਣ ਕਰੋ"
+    "noCharactersSelected": "ਕਿਰਪਾ ਕਰਕੇ ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਪਾਤਰਾਂ ਦੀ ਚੋਣ ਕਰੋ",
+    "allCharactersInfo": "ਐਕਸਪੋਰਟ ਕਰਨ ਲਈ ਪਾਤਰਾਂ ਦੀ ਚੋਣ ਕਰੋ"
   },
   "common": {
     "cancel": "ਰੱਦ ਕਰੋ",

@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Trình Tạo Bộ Dữ Liệu Beatrice",
-    "description": "Công cụ tạo bộ dữ liệu cho việc huấn luyện mô hình chuyển đổi giọng nói AI"
-  },
-  "character": {
-    "list": "Danh Sách Nhân Vật",
-    "add": "Thêm Nhân Vật",
-    "delete": "Xóa Nhân Vật",
-    "name": "Tên Nhân Vật",
-    "new": "Nhân Vật Mới",
-    "selected": "Đã Chọn",
-    "noCharacters": "Chưa có nhân vật nào được đăng ký",
-    "confirmDelete": "Bạn có chắc chắn muốn xóa nhân vật này không?"
-  },
-  "audio": {
-    "list": "Danh Sách Tệp Âm Thanh",
-    "add": "Thêm Âm Thanh",
-    "delete": "Xóa Âm Thanh",
-    "name": "Tên Tệp",
-    "size": "Kích Thước",
-    "duration": "Thời Lượng",
-    "noFiles": "Chưa có tệp âm thanh nào được đăng ký",
-    "noCharacterSelected": "Vui lòng chọn một nhân vật",
-    "play": "Phát",
-    "stop": "Dừng",
-    "confirmDelete": "Bạn có chắc chắn muốn xóa tệp âm thanh này không?",
-    "dropHere": "Kéo thả tệp âm thanh vào đây",
-    "orClickToSelect": "hoặc nhấp để chọn",
-    "uploading": "Đang thêm tệp",
-    "uploadingFiles": "Đang thêm {{count}} tệp",
-    "upload": "Thêm",
-    "actions": "Hành động"
-  },
-  "export": {
-    "button": "Xuất",
-    "title": "Xuất Bộ Dữ Liệu",
-    "selectCharacters": "Chọn nhân vật để xuất",
-    "filename": "Tên Tệp",
-    "downloading": "Đang tải xuống...",
-    "complete": "Xuất Hoàn Tất",
-    "noCharactersSelected": "Vui lòng chọn nhân vật để xuất"
-  },
-  "common": {
-    "cancel": "Hủy",
-    "confirm": "Xác Nhận",
-    "save": "Lưu",
-    "delete": "Xóa",
-    "edit": "Chỉnh Sửa",
-    "close": "Đóng",
-    "error": "Lỗi",
-    "success": "Thành Công",
-    "rowsPerPage": "Hàng mỗi trang"
-  }
+    "app": {
+        "title": "Trình Tạo Bộ Dữ Liệu Beatrice",
+        "description": "Công cụ tạo bộ dữ liệu cho việc huấn luyện mô hình chuyển đổi giọng nói AI"
+    },
+    "character": {
+        "list": "Danh Sách Nhân Vật",
+        "add": "Thêm Nhân Vật",
+        "delete": "Xóa Nhân Vật",
+        "name": "Tên Nhân Vật",
+        "new": "Nhân Vật Mới",
+        "selected": "Đã Chọn",
+        "noCharacters": "Chưa có nhân vật nào được đăng ký",
+        "confirmDelete": "Bạn có chắc chắn muốn xóa nhân vật này không?"
+    },
+    "audio": {
+        "list": "Danh Sách Tệp Âm Thanh",
+        "add": "Thêm Âm Thanh",
+        "delete": "Xóa Âm Thanh",
+        "name": "Tên Tệp",
+        "size": "Kích Thước",
+        "duration": "Thời Lượng",
+        "noFiles": "Chưa có tệp âm thanh nào được đăng ký",
+        "noCharacterSelected": "Vui lòng chọn một nhân vật",
+        "play": "Phát",
+        "stop": "Dừng",
+        "confirmDelete": "Bạn có chắc chắn muốn xóa tệp âm thanh này không?",
+        "dropHere": "Kéo thả tệp âm thanh vào đây",
+        "orClickToSelect": "hoặc nhấp để chọn",
+        "uploading": "Đang thêm tệp",
+        "uploadingFiles": "Đang thêm {{count}} tệp",
+        "upload": "Thêm",
+        "actions": "Hành động"
+    },
+    "export": {
+        "button": "Xuất",
+        "title": "Xuất Bộ Dữ Liệu",
+        "allCharactersInfo": "Tất cả nhân vật sẽ được xuất",
+        "filename": "Tên Tệp",
+        "downloading": "Đang tải xuống...",
+        "complete": "Xuất Hoàn Tất",
+        "noCharactersSelected": "Không có nhân vật để xuất"
+    },
+    "common": {
+        "cancel": "Hủy",
+        "confirm": "Xác Nhận",
+        "save": "Lưu",
+        "delete": "Xóa",
+        "edit": "Chỉnh Sửa",
+        "close": "Đóng",
+        "error": "Lỗi",
+        "success": "Thành Công",
+        "rowsPerPage": "Hàng mỗi trang"
+    }
 }
