@@ -1,7 +1,18 @@
 {
     "app": {
         "title": "Beatrice Dataset Zip App",
-        "description": "Dataset creation tool for AI voice changer model training"
+        "description": "Dataset creation tool for AI voice changer model training",
+        "instructions": {
+            "title": "Instructions",
+            "content": [
+                "・This app creates a dataset zip file for Beatrice Trainer for colab.",
+                "・It enables intuitive operations without knowledge of folder structure or zip commands.",
+                "・Steps",
+                "(1) Add character names using the + button.",
+                "(2) When you select an added character, an audio file registration area will appear. Register audio files here. You can drag and drop multiple files at once.",
+                "(3) Once you have registered audio for all necessary characters, press the Export button in the top right."
+            ]
+        }
     },
     "character": {
         "list": "Character List",

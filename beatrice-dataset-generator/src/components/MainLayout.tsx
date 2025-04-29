@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { AppBar, Box, Container, CssBaseline, IconButton, Menu, MenuItem, Toolbar, Tooltip, Typography } from "@mui/material";
-import { Language as LanguageIcon } from "@mui/icons-material";
+import { Alert, AlertTitle, AppBar, Box, Container, CssBaseline, IconButton, Link, Menu, MenuItem, Paper, Toolbar, Tooltip, Typography } from "@mui/material";
+import { Language as LanguageIcon, OpenInNew as OpenInNewIcon } from "@mui/icons-material";
 import { CharacterList } from "./CharacterList";
 import { AudioFileList } from "./AudioFileList";
 import { ExportDataset } from "./ExportDataset";
@@ -97,6 +97,60 @@ export const MainLayout = () => {
             </AppBar>
 
             <Container maxWidth="lg" sx={{ mt: 4, mb: 4, flexGrow: 1 }}>
+                <Paper
+                    elevation={0}
+                    sx={{
+                        p: 2,
+                        mb: 3,
+                        border: "1px solid",
+                        borderColor: "primary.light",
+                        backgroundColor: "#e8eaf6",
+                    }}
+                >
+                    <Typography variant="h6" gutterBottom color="primary">
+                        {t("app.instructions.title")}
+                    </Typography>
+                    {(t("app.instructions.content", { returnObjects: true }) as string[]).map((instruction: string, index: number) => (
+                        <Typography
+                            key={index}
+                            variant="body1"
+                            paragraph
+                            sx={{
+                                mb: index === (t("app.instructions.content", { returnObjects: true }) as string[]).length - 1 ? 0 : 1,
+                                pl: instruction.startsWith("(") ? 2 : 0,
+                                display: "flex",
+                                alignItems: "center",
+                            }}
+                        >
+                            {index === 0 ? (
+                                <>
+                                    {instruction.split("Beatrice Trainer for colab")[0]}
+                                    <Link
+                                        href="https://github.com/w-okada/beatrice-trainer-colab"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        sx={{
+                                            display: "inline-flex",
+                                            alignItems: "center",
+                                            color: "inherit",
+                                            textDecoration: "none",
+                                            "&:hover": {
+                                                textDecoration: "underline",
+                                            },
+                                        }}
+                                    >
+                                        Beatrice Trainer for colab
+                                        <OpenInNewIcon sx={{ fontSize: "1rem", ml: 0.5 }} />
+                                    </Link>
+                                    {instruction.split("Beatrice Trainer for colab")[1]}
+                                </>
+                            ) : (
+                                instruction
+                            )}
+                        </Typography>
+                    ))}
+                </Paper>
+
                 <Box
                     sx={{
                         display: "flex",
