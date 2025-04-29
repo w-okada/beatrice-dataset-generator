@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Alert, AlertTitle, AppBar, Box, Container, CssBaseline, IconButton, Link, Menu, MenuItem, Paper, Toolbar, Tooltip, Typography } from "@mui/material";
-import { Language as LanguageIcon, OpenInNew as OpenInNewIcon } from "@mui/icons-material";
+import { Language as LanguageIcon, GitHub as GitHubIcon, OpenInNew as OpenInNewIcon } from "@mui/icons-material";
 import { CharacterList } from "./CharacterList";
 import { AudioFileList } from "./AudioFileList";
 import { ExportDataset } from "./ExportDataset";
@@ -177,9 +177,42 @@ export const MainLayout = () => {
                 }}
             >
                 <Container maxWidth="lg">
-                    <Typography variant="body2" color="text.secondary" align="center">
-                        {t("app.description")}
-                    </Typography>
+                    <Box sx={{ display: "flex", justifyContent: "center", alignItems: "center", gap: 2 }}>
+                        <Link
+                            href="https://github.com/w-okada/beatrice-dataset-generator"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{
+                                display: "inline-flex",
+                                alignItems: "center",
+                                color: "text.secondary",
+                                textDecoration: "none",
+                                "&:hover": {
+                                    textDecoration: "underline",
+                                },
+                            }}
+                        >
+                            <GitHubIcon sx={{ fontSize: "1.5rem", mr: 0.5 }} />
+                            GitHub
+                        </Link>
+                        <Typography variant="body2" color="text.secondary">
+                            |
+                        </Typography>
+                        <Link
+                            href="https://github.com/w-okada"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            sx={{
+                                color: "text.secondary",
+                                textDecoration: "none",
+                                "&:hover": {
+                                    textDecoration: "underline",
+                                },
+                            }}
+                        >
+                            copyright 2025 wok
+                        </Link>
+                    </Box>
                 </Container>
             </Box>
         </Box>
