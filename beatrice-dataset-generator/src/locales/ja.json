@@ -1,57 +1,57 @@
 {
-  "app": {
-    "title": "Beatrice データセットジェネレーター",
-    "description": "ボイスチェンジャーのAIモデルトレーニング用データセット作成ツール"
-  },
-  "character": {
-    "list": "キャラクター一覧",
-    "add": "キャラクターを追加",
-    "delete": "キャラクターを削除",
-    "name": "キャラクター名",
-    "new": "新しいキャラクター",
-    "selected": "選択済み",
-    "noCharacters": "キャラクターがまだ登録されていません",
-    "confirmDelete": "このキャラクターを削除してもよろしいですか？"
-  },
-  "audio": {
-    "list": "音声ファイル一覧",
-    "add": "音声を追加",
-    "delete": "音声を削除",
-    "name": "ファイル名",
-    "size": "サイズ",
-    "duration": "長さ",
-    "noFiles": "音声ファイルがまだ登録されていません",
-    "noCharacterSelected": "キャラクターを選択してください",
-    "play": "再生",
-    "stop": "停止",
-    "confirmDelete": "この音声ファイルを削除してもよろしいですか？",
-    "dropHere": "ここに音声ファイルをドロップ",
-    "orClickToSelect": "または、クリックして選択",
-    "uploading": "ファイル追加中",
-    "uploadingFiles": "{{count}}個のファイルを追加しています",
-    "upload": "追加",
-    "actions": "操作",
-    "selectedFilesCount": "選択されたファイル数: {{count}}個",
-    "andMoreFiles": "他 {{count}}個のファイル"
-  },
-  "export": {
-    "button": "エクスポート",
-    "title": "データセットのエクスポート",
-    "selectCharacters": "エクスポートするキャラクターを選択",
-    "filename": "ファイル名",
-    "downloading": "ダウンロード中...",
-    "complete": "エクスポート完了",
-    "noCharactersSelected": "エクスポートするキャラクターを選択してください"
-  },
-  "common": {
-    "cancel": "キャンセル",
-    "confirm": "確認",
-    "save": "保存",
-    "delete": "削除",
-    "edit": "編集",
-    "close": "閉じる",
-    "error": "エラー",
-    "success": "成功",
-    "rowsPerPage": "表示件数"
-  }
+    "app": {
+        "title": "Beatrice データセットジェネレーター",
+        "description": "ボイスチェンジャーのAIモデルトレーニング用データセット作成ツール"
+    },
+    "character": {
+        "list": "キャラクター一覧",
+        "add": "キャラクターを追加",
+        "delete": "キャラクターを削除",
+        "name": "キャラクター名",
+        "new": "新しいキャラクター",
+        "selected": "選択済み",
+        "noCharacters": "キャラクターがまだ登録されていません",
+        "confirmDelete": "このキャラクターを削除してもよろしいですか？"
+    },
+    "audio": {
+        "list": "音声ファイル一覧",
+        "add": "音声を追加",
+        "delete": "音声を削除",
+        "name": "ファイル名",
+        "size": "サイズ",
+        "duration": "長さ",
+        "noFiles": "音声ファイルがまだ登録されていません",
+        "noCharacterSelected": "キャラクターを選択してください",
+        "play": "再生",
+        "stop": "停止",
+        "confirmDelete": "この音声ファイルを削除してもよろしいですか？",
+        "dropHere": "ここに音声ファイルをドロップ",
+        "orClickToSelect": "または、クリックして選択",
+        "uploading": "ファイル追加中",
+        "uploadingFiles": "{{count}}個のファイルを追加しています",
+        "upload": "追加",
+        "actions": "操作",
+        "selectedFilesCount": "選択されたファイル数: {{count}}個",
+        "andMoreFiles": "他 {{count}}個のファイル"
+    },
+    "export": {
+        "button": "エクスポート",
+        "title": "データセットのエクスポート",
+        "allCharactersInfo": "すべてのキャラクターがエクスポートされます",
+        "filename": "ファイル名",
+        "downloading": "ダウンロード中...",
+        "complete": "エクスポート完了",
+        "noCharactersSelected": "エクスポートするキャラクターがありません"
+    },
+    "common": {
+        "cancel": "キャンセル",
+        "confirm": "確認",
+        "save": "保存",
+        "delete": "削除",
+        "edit": "編集",
+        "close": "閉じる",
+        "error": "エラー",
+        "success": "成功",
+        "rowsPerPage": "表示件数"
+    }
 }

@@ -3,7 +3,6 @@ import { useTranslation } from "react-i18next";
 import {
     Box,
     Button,
-    Checkbox,
     Dialog,
     DialogActions,
     DialogContent,
@@ -13,7 +12,6 @@ import {
     List,
     ListItem,
     ListItemButton,
-    ListItemIcon,
     ListItemText,
     TextField,
     Typography,
@@ -23,7 +21,7 @@ import { useAppState } from "../001_AppStateProvider/AppStateContext";
 
 export const CharacterList = () => {
     const { t } = useTranslation();
-    const { state, addCharacter, deleteCharacter, selectCharacter, toggleCharacterSelection } = useAppState();
+    const { state, addCharacter, deleteCharacter, selectCharacter } = useAppState();
 
     const [newCharacterName, setNewCharacterName] = useState("");
     const [isAddDialogOpen, setIsAddDialogOpen] = useState(false);
@@ -57,12 +55,6 @@ export const CharacterList = () => {
         selectCharacter(id);
     };
 
-    // キャラクターのエクスポート選択の切り替え
-    const handleToggleSelection = (id: string, event: React.MouseEvent) => {
-        event.stopPropagation();
-        toggleCharacterSelection(id);
-    };
-
     return (
         <Box sx={{ width: "100%", maxWidth: 360, bgcolor: "background.paper" }}>
             <Box
@@ -94,15 +86,6 @@ export const CharacterList = () => {
                             }
                         >
                             <ListItemButton selected={state.selectedCharacterId === character.id} onClick={() => handleSelectCharacter(character.id)}>
-                                <ListItemIcon>
-                                    <Checkbox
-                                        edge="start"
-                                        checked={character.selected}
-                                        onClick={(e) => handleToggleSelection(character.id, e)}
-                                        tabIndex={-1}
-                                        disableRipple
-                                    />
-                                </ListItemIcon>
                                 <ListItemText primary={character.name} />
                             </ListItemButton>
                         </ListItem>

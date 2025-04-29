@@ -1,57 +1,57 @@
 {
-  "app": {
-    "title": "Beatrice Dataset Generator",
-    "description": "Dataset creation tool for AI voice changer model training"
-  },
-  "character": {
-    "list": "Character List",
-    "add": "Add Character",
-    "delete": "Delete Character",
-    "name": "Character Name",
-    "new": "New Character",
-    "selected": "Selected",
-    "noCharacters": "No characters registered yet",
-    "confirmDelete": "Are you sure you want to delete this character?"
-  },
-  "audio": {
-    "list": "Audio File List",
-    "add": "Add Audio",
-    "delete": "Delete Audio",
-    "name": "File Name",
-    "size": "Size",
-    "duration": "Duration",
-    "noFiles": "No audio files registered yet",
-    "noCharacterSelected": "Please select a character",
-    "play": "Play",
-    "stop": "Stop",
-    "confirmDelete": "Are you sure you want to delete this audio file?",
-    "dropHere": "Drop audio files here",
-    "orClickToSelect": "or click to select",
-    "uploading": "Adding Files",
-    "uploadingFiles": "Adding {{count}} files",
-    "upload": "Add",
-    "actions": "Actions",
-    "selectedFilesCount": "Selected files: {{count}}",
-    "andMoreFiles": "and {{count}} more files"
-  },
-  "export": {
-    "button": "Export",
-    "title": "Export Dataset",
-    "selectCharacters": "Select characters to export",
-    "filename": "File Name",
-    "downloading": "Downloading...",
-    "complete": "Export Complete",
-    "noCharactersSelected": "Please select characters to export"
-  },
-  "common": {
-    "cancel": "Cancel",
-    "confirm": "Confirm",
-    "save": "Save",
-    "delete": "Delete",
-    "edit": "Edit",
-    "close": "Close",
-    "error": "Error",
-    "success": "Success",
-    "rowsPerPage": "Rows per page"
-  }
+    "app": {
+        "title": "Beatrice Dataset Generator",
+        "description": "Dataset creation tool for AI voice changer model training"
+    },
+    "character": {
+        "list": "Character List",
+        "add": "Add Character",
+        "delete": "Delete Character",
+        "name": "Character Name",
+        "new": "New Character",
+        "selected": "Selected",
+        "noCharacters": "No characters registered yet",
+        "confirmDelete": "Are you sure you want to delete this character?"
+    },
+    "audio": {
+        "list": "Audio File List",
+        "add": "Add Audio",
+        "delete": "Delete Audio",
+        "name": "File Name",
+        "size": "Size",
+        "duration": "Duration",
+        "noFiles": "No audio files registered yet",
+        "noCharacterSelected": "Please select a character",
+        "play": "Play",
+        "stop": "Stop",
+        "confirmDelete": "Are you sure you want to delete this audio file?",
+        "dropHere": "Drop audio files here",
+        "orClickToSelect": "or click to select",
+        "uploading": "Adding Files",
+        "uploadingFiles": "Adding {{count}} files",
+        "upload": "Add",
+        "actions": "Actions",
+        "selectedFilesCount": "Selected files: {{count}}",
+        "andMoreFiles": "and {{count}} more files"
+    },
+    "export": {
+        "button": "Export",
+        "title": "Export Dataset",
+        "allCharactersInfo": "All characters will be exported",
+        "filename": "File Name",
+        "downloading": "Downloading...",
+        "complete": "Export Complete",
+        "noCharactersSelected": "No characters to export"
+    },
+    "common": {
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "save": "Save",
+        "delete": "Delete",
+        "edit": "Edit",
+        "close": "Close",
+        "error": "Error",
+        "success": "Success",
+        "rowsPerPage": "Rows per page"
+    }
 }

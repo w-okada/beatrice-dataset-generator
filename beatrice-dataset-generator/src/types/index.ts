@@ -4,7 +4,6 @@
 export type Character = {
     id: string;
     name: string;
-    selected: boolean;
     audioFiles: AudioFile[];
 };
 

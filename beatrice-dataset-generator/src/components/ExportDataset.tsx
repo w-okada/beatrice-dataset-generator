@@ -1,21 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import {
-    Box,
-    Button,
-    Checkbox,
-    Dialog,
-    DialogActions,
-    DialogContent,
-    DialogTitle,
-    FormControl,
-    FormControlLabel,
-    FormGroup,
-    FormHelperText,
-    LinearProgress,
-    TextField,
-    Typography,
-} from "@mui/material";
+import { Box, Button, Dialog, DialogActions, DialogContent, DialogTitle, LinearProgress, TextField, Typography } from "@mui/material";
 import { GetApp as DownloadIcon } from "@mui/icons-material";
 import JSZip from "jszip";
 import { saveAs } from "file-saver";
@@ -26,31 +11,13 @@ export const ExportDataset = () => {
     const { state } = useAppState();
     const [open, setOpen] = useState(false);
     const [exportFileName, setExportFileName] = useState("dataset");
-    const [localSelectedCharacters, setLocalSelectedCharacters] = useState<Record<string, boolean>>({});
     const [exporting, setExporting] = useState(false);
     const [exportProgress, setExportProgress] = useState(0);
 
     // ダイアログを開く
     const handleOpen = () => {
-        // アプリケーション状態のselectedフラグを使用して初期化
-        const selectedMap: Record<string, boolean> = {};
-        state.characters.forEach((character) => {
-            selectedMap[character.id] = character.selected;
-        });
-        setLocalSelectedCharacters(selectedMap);
         setOpen(true);
     };
-
-    // キャラクターの選択状態を切り替え
-    const handleToggleCharacter = (characterId: string) => {
-        setLocalSelectedCharacters((prev) => ({
-            ...prev,
-            [characterId]: !prev[characterId],
-        }));
-    };
-
-    // 選択されているキャラクターの数
-    const selectedCount = Object.values(localSelectedCharacters).filter(Boolean).length;
 
     // エクスポート処理
     const handleExport = async () => {
@@ -58,20 +25,20 @@ export const ExportDataset = () => {
             setExporting(true);
             setExportProgress(0);
 
-            // 選択されたキャラクターをフィルタリング
-            const selectedCharacters = state.characters.filter((character) => localSelectedCharacters[character.id]);
+            // すべてのキャラクターをエクスポート
+            const allCharacters = state.characters;
 
-            if (selectedCharacters.length === 0) {
+            if (allCharacters.length === 0) {
                 alert(t("export.noCharactersSelected"));
                 return;
             }
 
             const zip = new JSZip();
-            const totalFiles = selectedCharacters.reduce((acc, character) => acc + character.audioFiles.length, 0);
+            const totalFiles = allCharacters.reduce((acc, character) => acc + character.audioFiles.length, 0);
             let processedFiles = 0;
 
             // 各キャラクターのフォルダを作成
-            for (const character of selectedCharacters) {
+            for (const character of allCharacters) {
                 const folder = zip.folder(character.name);
                 if (!folder) continue;
 
@@ -127,31 +94,14 @@ export const ExportDataset = () => {
                     />
 
                     <Typography variant="subtitle1" gutterBottom>
-                        {t("export.selectCharacters")}
+                        {t("export.allCharactersInfo")}
                     </Typography>
 
-                    <FormControl component="fieldset" sx={{ width: "100%" }}>
-                        <FormGroup>
-                            {state.characters.map((character) => (
-                                <FormControlLabel
-                                    key={character.id}
-                                    control={
-                                        <Checkbox
-                                            checked={!!localSelectedCharacters[character.id]}
-                                            onChange={() => handleToggleCharacter(character.id)}
-                                            disabled={exporting}
-                                        />
-                                    }
-                                    label={`${character.name} (${character.audioFiles.length} ${t("audio.list").toLowerCase()})`}
-                                />
-                            ))}
-                        </FormGroup>
-                        <FormHelperText>
-                            {selectedCount === 0
-                                ? t("export.noCharactersSelected")
-                                : `${selectedCount} ${t("character.list").toLowerCase()} ${t("character.selected").toLowerCase()}`}
-                        </FormHelperText>
-                    </FormControl>
+                    <Box sx={{ mt: 2 }}>
+                        <Typography variant="body2">
+                            {state.characters.length > 0 ? `${state.characters.length} ${t("character.list").toLowerCase()}` : t("character.noCharacters")}
+                        </Typography>
+                    </Box>
 
                     {exporting && (
                         <Box sx={{ width: "100%", mt: 2 }}>
@@ -166,7 +116,7 @@ export const ExportDataset = () => {
                     <Button onClick={() => setOpen(false)} disabled={exporting}>
                         {t("common.cancel")}
                     </Button>
-                    <Button onClick={handleExport} color="primary" disabled={exporting || selectedCount === 0}>
+                    <Button onClick={handleExport} color="primary" disabled={exporting || state.characters.length === 0}>
                         {t("export.button")}
                     </Button>
                 </DialogActions>
