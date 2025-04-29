@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Beatrice 데이터셋 제너레이터",
+        "title": "Beatrice 데이터셋 압축 앱",
         "description": "AI 음성 변경기 모델 학습을 위한 데이터셋 작성 도구"
     },
     "character": {

@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Beatrice Dataset Generator",
+        "title": "Beatrice Dataset Zip App",
         "description": "Dataset creation tool for AI voice changer model training"
     },
     "character": {

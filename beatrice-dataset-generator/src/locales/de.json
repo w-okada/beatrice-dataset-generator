@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Beatrice Dataset Generator",
+        "title": "Beatrice Dataset Zip-App",
         "description": "Datensatz-Erstellungswerkzeug für das Training von KI-Stimmenwechslermodellen"
     },
     "character": {

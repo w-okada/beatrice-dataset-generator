@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Trình Tạo Bộ Dữ Liệu Beatrice",
+        "title": "Ứng Dụng Nén Zip Bộ Dữ Liệu Beatrice",
         "description": "Công cụ tạo bộ dữ liệu cho việc huấn luyện mô hình chuyển đổi giọng nói AI"
     },
     "character": {

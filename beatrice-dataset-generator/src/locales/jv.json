@@ -1,55 +1,55 @@
 {
-  "app": {
-    "title": "Generator Dataset Beatrice",
-    "description": "Piranti kanggo nggawe dataset kanggo pelatihan model pengubah swara AI"
-  },
-  "character": {
-    "list": "Daftar Karakter",
-    "add": "Tambah Karakter",
-    "delete": "Busak Karakter",
-    "name": "Jeneng Karakter",
-    "new": "Karakter Anyar",
-    "selected": "Dipilih",
-    "noCharacters": "Durung ana karakter sing didhaftarake",
-    "confirmDelete": "Apa sampeyan yakin arep mbusak karakter iki?"
-  },
-  "audio": {
-    "list": "Daftar File Audio",
-    "add": "Tambah Audio",
-    "delete": "Busak Audio",
-    "name": "Jeneng File",
-    "size": "Ukuran",
-    "duration": "Suwene",
-    "noFiles": "Durung ana file audio sing didhaftarake",
-    "noCharacterSelected": "Mangga pilih karakter",
-    "play": "Muter",
-    "stop": "Mandheg",
-    "confirmDelete": "Apa sampeyan yakin arep mbusak file audio iki?",
-    "dropHere": "Sellehna file audio ing kene",
-    "orClickToSelect": "utawa klik kanggo milih",
-    "uploading": "Nambahake File",
-    "uploadingFiles": "Nambahake {{count}} file",
-    "upload": "Tambah",
-    "actions": "Tindakan"
-  },
-  "export": {
-    "button": "Ekspor",
-    "title": "Ekspor Dataset",
-    "filename": "Jeneng File",
-    "downloading": "Ngundhuh...",
-    "complete": "Ekspor Rampung",
-    "noCharactersSelected": "Mangga が無い|がありません|はありません|none|no|non|没有|없습니다|لا|δεν|нет|tiada|tidak ada karakter kanggo diekspor",
-    "allCharactersInfo": "全て|all|所有|todo|全部|모든|すべて|alle|tout|todas|semua|tümü|todos|все|كل|όλ|tutt|সমস্ত|সব|सभी|তমাম karakter kanggo diekspor"
-  },
-  "common": {
-    "cancel": "Batal",
-    "confirm": "Konfirmasi",
-    "save": "Simpen",
-    "delete": "Busak",
-    "edit": "Sunting",
-    "close": "Tutup",
-    "error": "Kesalahan",
-    "success": "Sukses",
-    "rowsPerPage": "Baris saben kaca"
-  }
+    "app": {
+        "title": "Aplikasi Zip Dataset Beatrice",
+        "description": "Piranti kanggo nggawe dataset kanggo pelatihan model pengubah swara AI"
+    },
+    "character": {
+        "list": "Daftar Karakter",
+        "add": "Tambah Karakter",
+        "delete": "Busak Karakter",
+        "name": "Jeneng Karakter",
+        "new": "Karakter Anyar",
+        "selected": "Dipilih",
+        "noCharacters": "Durung ana karakter sing didhaftarake",
+        "confirmDelete": "Apa sampeyan yakin arep mbusak karakter iki?"
+    },
+    "audio": {
+        "list": "Daftar File Audio",
+        "add": "Tambah Audio",
+        "delete": "Busak Audio",
+        "name": "Jeneng File",
+        "size": "Ukuran",
+        "duration": "Suwene",
+        "noFiles": "Durung ana file audio sing didhaftarake",
+        "noCharacterSelected": "Mangga pilih karakter",
+        "play": "Muter",
+        "stop": "Mandheg",
+        "confirmDelete": "Apa sampeyan yakin arep mbusak file audio iki?",
+        "dropHere": "Sellehna file audio ing kene",
+        "orClickToSelect": "utawa klik kanggo milih",
+        "uploading": "Nambahake File",
+        "uploadingFiles": "Nambahake {{count}} file",
+        "upload": "Tambah",
+        "actions": "Tindakan"
+    },
+    "export": {
+        "button": "Ekspor",
+        "title": "Ekspor Dataset",
+        "filename": "Jeneng File",
+        "downloading": "Ngundhuh...",
+        "complete": "Ekspor Rampung",
+        "noCharactersSelected": "Mangga が無い|がありません|はありません|none|no|non|没有|없습니다|لا|δεν|нет|tiada|tidak ada karakter kanggo diekspor",
+        "allCharactersInfo": "全て|all|所有|todo|全部|모든|すべて|alle|tout|todas|semua|tümü|todos|все|كل|όλ|tutt|সমস্ত|সব|सभी|তমাম karakter kanggo diekspor"
+    },
+    "common": {
+        "cancel": "Batal",
+        "confirm": "Konfirmasi",
+        "save": "Simpen",
+        "delete": "Busak",
+        "edit": "Sunting",
+        "close": "Tutup",
+        "error": "Kesalahan",
+        "success": "Sukses",
+        "rowsPerPage": "Baris saben kaca"
+    }
 }

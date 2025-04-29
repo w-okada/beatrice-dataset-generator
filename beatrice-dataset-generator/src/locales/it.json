@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Generatore di Dataset Beatrice",
+        "title": "App di Compressione Zip di Dataset Beatrice",
         "description": "Strumento di creazione di dataset per l'addestramento di modelli IA per il cambio voce"
     },
     "character": {

@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Générateur de Jeu de Données Beatrice",
+        "title": "Application de Compression Zip de Données Beatrice",
         "description": "Outil de création de jeu de données pour l'entraînement de modèles IA de transformation de voix"
     },
     "character": {

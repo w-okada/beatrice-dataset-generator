@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Beatrice 数据集生成器",
+        "title": "Beatrice 数据集压缩应用",
         "description": "AI变声器模型训练用数据集创建工具"
     },
     "character": {

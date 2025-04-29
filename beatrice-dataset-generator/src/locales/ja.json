@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Beatrice データセットジェネレーター",
+        "title": "Beatrice データセットZip化アプリ",
         "description": "ボイスチェンジャーのAIモデルトレーニング用データセット作成ツール"
     },
     "character": {

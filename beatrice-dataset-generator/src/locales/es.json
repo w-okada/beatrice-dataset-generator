@@ -1,6 +1,6 @@
 {
     "app": {
-        "title": "Generador de Conjunto de Datos Beatrice",
+        "title": "Aplicación de Compresión Zip de Datos Beatrice",
         "description": "Herramienta de creación de conjunto de datos para entrenamiento de modelos de IA de cambio de voz"
     },
     "character": {
