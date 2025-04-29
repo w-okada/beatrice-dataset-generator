@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Alert, AlertTitle, AppBar, Box, Container, CssBaseline, IconButton, Link, Menu, MenuItem, Paper, Toolbar, Tooltip, Typography } from "@mui/material";
+import { AppBar, Box, Container, CssBaseline, IconButton, Link, Menu, MenuItem, Paper, Toolbar, Tooltip, Typography } from "@mui/material";
 import { Language as LanguageIcon, GitHub as GitHubIcon, OpenInNew as OpenInNewIcon } from "@mui/icons-material";
 import { CharacterList } from "./CharacterList";
 import { AudioFileList } from "./AudioFileList";

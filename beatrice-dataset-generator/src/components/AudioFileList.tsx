@@ -242,7 +242,7 @@ export const AudioFileList = () => {
     };
 
     // ページング処理
-    const handleChangePage = (event: unknown, newPage: number) => {
+    const handleChangePage = (_: unknown, newPage: number) => {
         setPage(newPage);
     };
 
